@@ -2,7 +2,12 @@ import logo from "./logo.svg";
 import * as React from "react";
 import "./App.css";
 
+import { imageToPixelArray } from "./utils";
+
 function App() {
+  const imageData = imageToPixelArray("/logo192.png");
+  console.log(imageData);
+
   return (
     <div className="App">
       <header className="App-header">
