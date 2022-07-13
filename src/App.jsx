@@ -5,8 +5,8 @@ import "./App.css";
 import { imageToPixelArray } from "./utils";
 
 function App() {
-  const imageData = imageToPixelArray("/logo192.png");
-  console.log(imageData);
+  //const imageData = imageToPixelArray("/logo192.png");
+  //console.log(imageData);
 
   return (
     <div className="App">
